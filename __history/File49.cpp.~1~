@@ -1,11 +1,8 @@
 #include <iostream>
 #include <windows.h>
-#define bayrak system("Color 4f");
-#define bitir cin.get();
 using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
 {
- bayrak
  int number1,number2,gcd;
  cout<<"Please write a number";
  cin>>number1;
@@ -47,7 +44,7 @@ int _tmain(int argc, _TCHAR* argv[])
  }
  else if(number1==number2)
 	 gcd=number1;
- cout<<"gcd of numbers = "<<gcd;
- bitir
- bitir
+ cout<<"sayilarin ebobu = "<<gcd;
+ cin.get();
+ cin.get();
 }
